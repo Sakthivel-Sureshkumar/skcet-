@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakthi's Portfolio</title>
+    <style>
+        body{
+            background-image:linear-gradient(rgb(211, 79, 211),rgb(109, 141, 230));
+            background-repeat: no-repeat;
+            background-blend-mode: normal;
+            padding: 0;
+            background-size: 100% 100%;
+            width:100%;
+            margin:0 auto;
+            /* min-height: 100%; */
+            height:100%;
+           
+            
+        }
+        
+       .flex{
+            /* position:absolute; */
+            display:flex;
+            flex-direction:row;
+            color:black;
+            /* justify-content:space-evenly; */
+            padding:0.5rem;
+            width: 100%;
+            box-shadow: 10px;
+        }
+        ul{
+            list-style-type: none;
+             display:flex; /*skills will be display in flex  */
+            flex-direction:row;
+            padding-right: 50px;
+         
+
+        }
+        li{
+            padding-right: 80px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .li1 :hover{
+            color: yellow;
+            background-color: rgb(114, 124, 134);
+            border-radius: 50px;
+            padding:10px;
+            /* text-decoration: underline; */
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        .id{
+            padding:70px;
+        }
+        .jus{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            /* text-align: justify; */
+            padding-left: 50px;
+            padding-right: 50px;
+            /* justify-content: space-evenly; */
+            padding-bottom: 20px;
+        }
+        .unl{
+            
+            /* justify-content: space-evenly; */
+            line-height: 1.5;
+            padding-bottom: 20px;
+        }
+        .hr{
+            border: 1px solid black;
+            width: 95%;
+        }
+        .ul1{
+            line-height: 1.5;
+            padding-left: 50px;
+            padding-right: 50px;
+            display:contents;
+            padding-bottom:20px;
+        }
+        .list1{
+            line-height: 2.3;
+            padding-left: 50px;
+            padding-right: 50px;
+            
+        }
+        html{
+        scroll-behavior: smooth;
+        }
+        .resume{
+            background-color: lightslategrey;
+            padding:20px;
+            border:10px;
+            border-radius: 75%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-right:20px;
+            padding-top: 100px;
+            margin-top: 40px;
+
+        }
+    </style>
+</head>
+<body>
+    <nav class="flex">
+        <a href=""><img class="h3"style="padding-right: 10px;padding-left: 20px;height:40px; width:40px;padding-top:5px;" src="user1.png" alt="user"></a>
+        <h4 style="padding-right:125px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">SAKTHIVEL S</h4>
+        
+        <center><a class="resume" href="Sakthiresume.pdf">View Resume</a></center>
+        <ul style="padding-left: 100px;">
+            <li class="li1"><a href="#home">Home</a></li>
+            <li class="li1"><a href="#about">About</a></li>
+            <li class="li1"><a href="#skills">Skills</a></li>
+            <li class="li1"><a href="#tools">Tools</a></li>
+            <li class="li1"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <hr class="hr">
+    <div id="about">
+        <h1 style="text-align: center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">My Portfolio</h1>
+        <h3 style="padding-top: 10px;padding-left: 30px;padding-right:20px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"">About Me</h3>
+        
+        <p class="jus">Hello! I'm Sakthivel, a third-year Electronics and Communications Engineering student with a passion for web page designing, Adobe editing software, and color design. 
+        I enjoy creating visually appealing and user-friendly websites, enhancing visuals with Photoshop and Illustrator, and experimenting with color schemes to achieve the perfect look.
+         Additionally, I love hacking code to find innovative solutions and capturing moments through photography, sharing my work on social media to connect with a broader audience. 
+        My diverse interests drive me to continuously learn and innovate in the field of technology and creativity.
+        </p>
+    </div>
+    <hr class="hr">
+    <div id="skills">
+        <h3 style="padding-top: 10px;padding-left: 30px;padding-right:20px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Skills</h3>
+        <p class="jus">
+        <ul class="unl">
+            <li><b>WebDevelopment:</b> Proficient in HTML, CSS, and JavaScript for creating responsive and user-friendly websites.</li>
+            <li><b>Adobe Editing:</b> Skilled in Photoshop and Illustrator for photo editing and graphic design.</li>
+            <li><b>Programming:</b> Experienced in C++ and Java for solving complex problems.</li>
+            <li><b>Database Management:</b> Knowledgeable in MySQL for designing and managing databases.</li>
+            <li><b>Color Design:</b> Enjoy experimenting with color schemes to enhance visual appeal.</li>
+        </ul></p>
+    </div>
+     <hr class="hr">
+    <div id="tools">
+        <h3 style="padding-top: 10px;padding-left: 30px;padding-right:20px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Software Expertise</h3>
+        <p class="jus"><ul class="ul1">
+            <li class="list1">
+                <b>Adobe creative suit:</b> Advanced photo editing and manipulation.
+                Experienced in video editing, motion graphics, and color grading.
+            </li>
+            <li class="list1">
+                <b>Canva: </b>Expertise in creating graphics, presentations, and marketing materials.
+            </li>
+            <li class="list1"> 
+                <b>Microsoft excel: </b>Data analysis, financial modeling, and advanced spreadsheet functions.
+            </li>
+            <li class="list1">
+                <b>Microsoft visual basic: </b>Automates tasks and creates user-defined functions in Office applications.
+            </li>
+            <li class="list1">
+                <b>Microsoft powerpoint: </b>Design of impactful presentations with custom graphics and multimedia.
+            </li>
+            <li class="list1">
+                <b>VS Code: </b>Coding, debugging, and development with customization for productivity.
+            </li>
+        </ul></p>
+    </div>
+    <br>
+    <hr class="hr">
+    <div>
+        <h3 style="padding-top: 10px;padding-left: 30px;padding-right:20px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Language Proficiency</h3>
+        <ul class="ul1">
+            <li class="list1"><b>Tamil: </b>Native proficiency, fluent in both written and spoken Tamil.</li>
+            <li class="list1"><b>English: </b>Moderately fluent, with the ability to communicate in professional and conversational contexts.</li>
+            <li class="list1"><b>Malayalam: </b>Effective in reading and writing, with conversational proficiency.</li>
+        </ul>
+    </div>
+    <br>
+    <hr class="hr">
+    <div id="contact">
+        <h3 style="padding-top: 10px;padding-left: 30px;padding-right:20px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Contact</h3>
+        <ul>
+            <a href=""><li class="li1">Mobile:+91 8220164552</li></a>
+            <a href=""><li class="li1">Email: sakthi6705@gmail.com</li></a>
+            <a href=""><li class="li1">Github</li></a>
+        </ul>
+    </div>
+    <br>
+
+    <hr class="hr">
+    <br>
+    <div>
+
+
+    </div>
+
+
+
+   
+</body>
+</html>
